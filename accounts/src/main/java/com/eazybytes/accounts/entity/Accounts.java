@@ -10,7 +10,7 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Accounts {
+public class Accounts  extends BaseEntity {
 
 
     @Column(name = "customer_id")
